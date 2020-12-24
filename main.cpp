@@ -8,8 +8,8 @@ int main() {
 	ios::sync_with_stdio(0);
 	cin.tie(0);
 	
-  //this prints all the possible arrangements of an array
-  //just use 'next_permutation' function in the array
+  	//this prints all the possible arrangements of an array
+  	//just use 'next_permutation' function in the array
 	int a[3]={1,2,3};
 	sort(a, a+3);
 	do {
